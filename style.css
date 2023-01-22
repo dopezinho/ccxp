@@ -24,12 +24,66 @@ time, mark, audio, video {
 /* CSSZIN  */
 
 body {
-    background-color: #e4e4a4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-height: 100vh;
 }
 
 header {
-    height: 20vh;
+    background-color: #e4e4a4;
+    height: 15vh;
     padding: 2vh 2vh 0 0;
+}
+
+header img {
+    height: 13vh;
+}
+
+#sec1 {
+    display: grid;
+    grid-auto-columns: 50vw;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+#desc {
+    background-color: #7e07eeb5;
+    color: #fff;
+    text-align: center;
+}
+
+#titulo {
+    color: #e4e4a4;
+    font-size: 6vh;
+    text-transform: uppercase;
+}
+
+#data {
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#conteudo {
+    font-size: 2vh;
+}
+
+#countdown {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: #fff;
+}
+
+.cd-item {
+    color: #f36767;
+    text-transform: uppercase;
+}
+
+#subtitulo {
+    background-color: #fff;
+    color: #690c0c;
+    text-transform: uppercase;
+}
+
+#video {
+    background-color: #fff;
 }
